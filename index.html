@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Product Gallery</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+    <link rel="stylesheet" href="css/sidebar.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Product Gallery</h1>
+    </header>
+
+    <main>
+      <section id="data-source-banner"></section>
+
+      <div class="layout">
+        <nav class="sidebar">
+          <h2 class="sidebar-title">Product Categories</h2>
+          <div id="category-menu" class="sidebar-menu"></div>
+        </nav>
+
+        <section id="products" class="content"></section>
+      </div>
+
+      <div id="modal-overlay-wrapper">
+        <div id="modal-container">
+          <div id="modal-content"></div>
+        </div>
+      </div>
+
+      <section id="loading-products">Loading Products....</section>
+      <section id="error-section">Something went wrong. Please refresh</section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

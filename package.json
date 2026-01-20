@@ -1,0 +1,14 @@
+{
+  "name": "product-gallery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ES6+ product gallery with API + offline JSON fallback.",
+  "scripts": {
+    "start": "serve .",
+    "dev": "browser-sync start --server --files \"**/*\""
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "serve": "^14.2.5"
+  }
+}

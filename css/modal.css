@@ -1,0 +1,81 @@
+/* ===== Modal Overlay ===== */
+div#modal-overlay-wrapper {
+  position: fixed;
+  background-color: #000000cc;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  z-index: 900;
+  display: none;
+}
+
+div#modal-content {
+  position: absolute;
+  z-index: 1000;
+  background-color: white;
+  width: fit-content;
+  max-width: 60%;
+  min-width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: center;
+}
+
+p.modal-product-desc-price {
+  text-align: left;
+}
+
+.product-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+
+.product-modal-footer button {
+  background-color: #8c9bae;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  border: 1px solid #8c9bae;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 6px 10px;
+}
+
+.product-modal-footer button:hover {
+  background-color: #2f4158;
+}
+
+/* ===== App UI states (loader / error / banner) ===== */
+#loading-products,
+#error-section {
+  display: none; /* hidden by default */
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+/* Loading */
+#loading-products {
+  background: #f3f4f6;
+}
+
+/* Error */
+#error-section {
+  background: #fee2e2;
+}
+
+/* Data source banner (API vs local fallback) */
+#data-source-banner {
+  display: none;
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 6px;
+  background: #e5e7eb;
+  font-size: 14px;
+}

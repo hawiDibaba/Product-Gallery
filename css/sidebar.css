@@ -1,0 +1,78 @@
+/* ===========================
+   Sidebar + Layout Styles
+   =========================== */
+
+/* Make the page itself full height */
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Main layout: sidebar + content */
+.layout {
+  display: flex;
+  min-height: 100vh; /* full window height */
+}
+
+/* Left menu sidebar */
+.sidebar {
+  width: 240px;
+  min-height: 100vh; /* ✅ always full window height */
+  background: #f3f4f6;
+  padding: 16px 12px;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Menu buttons */
+.sidebar button {
+  width: 100%;
+  text-align: left;
+  padding: 12px 12px;
+  margin-bottom: 8px;
+
+  border-radius: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+  font-size: 16px; /* bigger category title text */
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Hover effect */
+.sidebar button:hover {
+  background: #e5e7eb;
+}
+
+/* Active/selected category */
+.sidebar button.active {
+  background: #d1d5db; /* darker gray */
+  color: #111827;
+}
+
+/* Product content area */
+.content {
+  flex: 1;
+  padding: 16px;
+}
+
+/* Utility class to hide category sections */
+.hidden {
+  display: none;
+}
+
+.sidebar-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 12px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.sidebar-menu {
+  display: flex;
+  flex-direction: column;
+}
