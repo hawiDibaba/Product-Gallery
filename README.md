@@ -2,9 +2,9 @@ Product Gallery (ES6+)
 
 A simple ES6+ JavaScript product gallery that loads products from the FakeStore API and falls back to a local JSON file if the API fails.
 
-•	✅ Javascript ES6+
-•	✅ Async/Await + Fetch
-•	✅ Local JSON fallback (/data/products.json)
+•	✅ Javascript ES6+ 
+•	✅ Async/Await + Fetch 
+•	✅ Local JSON fallback (/data/products.json) 
 •	✅ Category sidebar navigation (click to show/hide categories)
 •	✅ Modal product details
 •	✅ Lazy-loaded images
