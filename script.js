@@ -24,7 +24,7 @@ const fetchJson = async (url) => {
 
 const fetchProductsWithFallback = async (
   apiUrl,
-  fallbackUrl = "/data/products.json",
+  fallbackUrl = "./data/products.json",
 ) => {
   try {
     return await fetchJson(apiUrl);
