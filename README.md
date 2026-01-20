@@ -51,3 +51,10 @@ https://fakestoreapi.com/products
 
 If the API request fails, the app automatically loads the local backup data.
 
+## Features
+
+- Loads products and groups them by category
+- Sidebar menu shows categories and displays the selected category only
+- Modal shows product details on click
+- Click outside the modal (overlay) to close it
+- Images use native lazy-loading for better performance
