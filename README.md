@@ -28,15 +28,10 @@ Product-Gallery/
    └─ sidebar.css
 ```
 
-
-
----
-
 ## Run Locally
 
 ### Install dependencies
 npm install
-
 
 ### Start in development mode (auto refresh)
 npm run dev
@@ -44,29 +39,15 @@ npm run dev
 ### Or start normally
 npm run start
 
-
-Then open the local URL shown in the terminal.
-
----
+Then open the local URL shown in the terminal (usually http://localhost:3000) in your browser.
 
 ## Data Source + Fallback
 
 **Primary API**
+https://fakestoreapi.com/products
 
+**Fallback file**
+/data/products.json
 
-Data Source + Fallback
-•	Primary API: https://fakestoreapi.com/products
-•	Fallback file: /data/products.json
 If the API request fails, the app automatically loads the local backup data.
-
-Tech Used
-•	HTML
-•	CSS
-•	JavaScript (ES6+)
-•	Fetch API + Async/Await
-•	browser-sync (dev auto refresh)
-•	serve (simple static server)
-
-Notes
-This is a front-end only project built for practice and portfolio use.
 
