@@ -67,3 +67,7 @@ If the API request fails, the app automatically loads the local backup data.
 - Fetch API + Async/Await
 - browser-sync (development auto refresh)
 - serve (simple static server)
+
+## Notes
+
+This is a front-end only project built for practice and portfolio use.
