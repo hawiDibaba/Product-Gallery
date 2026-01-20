@@ -58,3 +58,12 @@ If the API request fails, the app automatically loads the local backup data.
 - Modal shows product details on click
 - Click outside the modal (overlay) to close it
 - Images use native lazy-loading for better performance
+
+## Tech Used
+
+- HTML
+- CSS
+- JavaScript (ES6+)
+- Fetch API + Async/Await
+- browser-sync (development auto refresh)
+- serve (simple static server)
