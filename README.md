@@ -13,6 +13,7 @@ A simple **ES6+ JavaScript** product gallery that loads products from the **Fake
 
 ## Project Structure
 
+```
 Product-Gallery/
 ├─ index.html
 ├─ script.js
@@ -25,6 +26,7 @@ Product-Gallery/
    ├─ styles.css
    ├─ modal.css
    └─ sidebar.css
+```
 
 
 
@@ -41,7 +43,16 @@ npm run dev
 
 ### Or start normally
 npm run start
+
+
 Then open the local URL shown in the terminal.
+
+---
+
+## Data Source + Fallback
+
+**Primary API**
+
 
 Data Source + Fallback
 •	Primary API: https://fakestoreapi.com/products
