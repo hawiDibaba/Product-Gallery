@@ -14,23 +14,32 @@ A simple **ES6+ JavaScript** product gallery that loads products from the **Fake
 ## Project Structure
 
 Product-Gallery/
-index.html
-script.js
-data/
-  products.json
-css/
-  styles.css
-  modal.css
-  sidebar.css
-package.json
-package-lock.json
+├─ index.html
+├─ script.js
+├─ package.json
+├─ package-lock.json
+├─ .gitignore
+├─ data/
+│  └─ products.json
+└─ css/
+   ├─ styles.css
+   ├─ modal.css
+   └─ sidebar.css
 
-Run Locally
-Install dependencies
+
+
+---
+
+## Run Locally
+
+### Install dependencies
 npm install
-Start in development mode (auto refresh)
+
+
+### Start in development mode (auto refresh)
 npm run dev
-Or start normally
+
+### Or start normally
 npm run start
 Then open the local URL shown in the terminal.
 
